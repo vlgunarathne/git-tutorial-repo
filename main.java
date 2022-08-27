@@ -3,8 +3,8 @@ class HelloWorld {
         System.out.println("Hello, World!"); 
     }
 
-    public void printName(string name) {
-        System.out.println(name);
+    public void printName(string firstName, string lastName) {
+        System.out.println(firstName + " " + lastName);
     }
 
     public void printAge(int age) {
