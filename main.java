@@ -6,4 +6,8 @@ class HelloWorld {
     public void printName(string name) {
         System.out.println(name);
     }
+
+    public void printAge(int age) {
+        System.out.println(age);
+    }
 }
